@@ -1,0 +1,70 @@
+body {
+    height: 5%;
+    margin: 0px;
+    padding: 0;
+    text-align: center;    
+    background-image: url(OIP.jpg);
+    background-size: 1500px;
+}
+.container {
+    display: flex;
+   width: 700px;
+    justify-content: space-around;
+    padding: 200px 300px;  
+    margin: 400px auto;
+    background-color: rgba(207, 197, 197, 0.703);
+    color: #f5fff1;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    border-radius: 60px;   
+}
+button {
+    background-color: black;
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+    size: 40%;
+    cursor: pointer;
+}
+h3{
+    font-weight: 300px;
+    color: hwb(0 0% 100%);
+    font-size: 70px;
+    text-shadow: #fffbfb;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 3px 3px rgb(196, 206, 198);  
+}
+#home-score{
+   background-color: hwb(0 0% 100%);
+    color: rgb(209, 24, 24);
+    font-family: 'Protest Guerrilla', sans-serif;
+    padding-block: 10px;
+    font-size: 100px;
+    margin: 10px auto;
+    border-radius: 6px;
+
+}
+#guest-score{
+    background-color: hwb(0 0% 100%);
+    color: rgb(209, 24, 24);
+    font-family: 'Protest Guerrilla', sans-serif;
+    padding-block: 10px;
+    font-size: 100px;
+    margin: 10px auto;
+    border-radius: 6px;
+}
+#demo{   
+    font-family: 'Protest Guerrilla', sans-serif;
+    background-color: rgba(207, 197, 197, 0.703);
+    font-size: 200px;
+    margin-top: 300px;
+    color: rgb(0, 0, 0);
+    text-shadow: #fffbfb;
+    text-shadow: 3px 3px 3px rgb(196, 206, 198);
+}
